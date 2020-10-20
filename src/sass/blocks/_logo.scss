@@ -1,0 +1,16 @@
+.Logo {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  &-Img {
+    max-width: 100px;
+    margin-right: 15px;
+  }
+
+  &-Title {
+    font-size: 2.2rem;
+    color: #760c0c;
+  }
+}

@@ -1,0 +1,317 @@
+.Block {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-right: 40px;
+  margin-left: 40px; */
+  margin-left: 15px;
+  margin-right: 15px;
+  justify-content: center;
+
+  &-Column {
+    flex-direction: column;
+  }
+
+  &_SpaceBetween {
+    justify-content: space-between;
+  }
+
+  &_Start {
+    justify-content: flex-start;
+  }
+
+  &_Left {
+    justify-content: left;
+  }
+}
+
+@include mq-max(1200px) {
+  .Block {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@include mq-max(800px) {
+  .Block {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@include mq-max(575px) {
+  .Block {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+/* new grid system */
+
+[class*="Col"] {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.No-Gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class*="Col"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/* 
+.No-Padding {
+  padding-left: 0;
+  padding-right: 0;
+} */
+
+.Col1 {
+  @include column(1);
+}
+
+.Col2 {
+  @include column(2);
+}
+
+.Col3 {
+  @include column(3);
+}
+
+.Col4 {
+  @include column(4);
+}
+
+.Col5 {
+  @include column(5);
+}
+
+.Col6 {
+  @include column(6);
+}
+
+.Col7 {
+  @include column(7);
+}
+
+.Col8 {
+  @include column(8);
+}
+
+.Col9 {
+  @include column(9);
+}
+
+.Col10 {
+  @include column(10);
+}
+
+.Col11 {
+  @include column(11);
+}
+
+.Col12 {
+  @include column(12);
+}
+
+@include mq-min(576px) {
+  .ColSm1 {
+    @include column(1);
+  }
+
+  .ColSm2 {
+    @include column(2);
+  }
+
+  .ColSm3 {
+    @include column(3);
+  }
+
+  .ColSm4 {
+    @include column(4);
+  }
+
+  .ColSm5 {
+    @include column(5);
+  }
+
+  .ColSm6 {
+    @include column(6);
+  }
+
+  .ColSm7 {
+    @include column(7);
+  }
+
+  .ColSm8 {
+    @include column(8);
+  }
+
+  .ColSm9 {
+    @include column(9);
+  }
+
+  .ColSm10 {
+    @include column(10);
+  }
+
+  .ColSm11 {
+    @include column(11);
+  }
+
+  .ColSm12 {
+    @include column(12);
+  }
+}
+
+@include mq-min(768px) {
+  .ColMd1 {
+    @include column(1);
+  }
+
+  .ColMd2 {
+    @include column(2);
+  }
+
+  .ColMd3 {
+    @include column(3);
+  }
+
+  .ColMd4 {
+    @include column(4);
+  }
+
+  .ColMd5 {
+    @include column(5);
+  }
+
+  .ColMd6 {
+    @include column(6);
+  }
+
+  .ColMd7 {
+    @include column(7);
+  }
+
+  .ColMd8 {
+    @include column(8);
+  }
+
+  .ColMd9 {
+    @include column(9);
+  }
+
+  .ColMd10 {
+    @include column(10);
+  }
+
+  .ColMd11 {
+    @include column(11);
+  }
+
+  .ColMd12 {
+    @include column(12);
+  }
+}
+
+@include mq-min(992px) {
+  .ColLg1 {
+    @include column(1);
+  }
+
+  .ColLg2 {
+    @include column(2);
+  }
+
+  .ColLg3 {
+    @include column(3);
+  }
+
+  .ColLg4 {
+    @include column(4);
+  }
+
+  .ColLg5 {
+    @include column(5);
+  }
+
+  .ColLg6 {
+    @include column(6);
+  }
+
+  .ColLg7 {
+    @include column(7);
+  }
+
+  .ColLg8 {
+    @include column(8);
+  }
+
+  .ColLg9 {
+    @include column(9);
+  }
+
+  .ColLg10 {
+    @include column(10);
+  }
+
+  .ColLg11 {
+    @include column(11);
+  }
+
+  .ColLg12 {
+    @include column(12);
+  }
+}
+
+@include mq-min(1200px) {
+  .ColXl1 {
+    @include column(1);
+  }
+
+  .ColXl2 {
+    @include column(2);
+  }
+
+  .ColXl3 {
+    @include column(3);
+  }
+
+  .ColXl4 {
+    @include column(4);
+  }
+
+  .ColXl5 {
+    @include column(5);
+  }
+
+  .ColXl6 {
+    @include column(6);
+  }
+
+  .ColXl7 {
+    @include column(7);
+  }
+
+  .ColXl8 {
+    @include column(8);
+  }
+
+  .ColXl9 {
+    @include column(9);
+  }
+
+  .ColXl10 {
+    @include column(10);
+  }
+
+  .ColXl11 {
+    @include column(11);
+  }
+
+  .ColXl12 {
+    @include column(12);
+  }
+}

@@ -1,0 +1,16 @@
+/* base */
+@import "./base/colors";
+@import "./base/vars";
+@import "./base/reset";
+//@import "./base/grid";
+@import "./base/common";
+
+@import "./blocks/wrapper";
+@import "./blocks/header";
+@import "./blocks/nav";
+@import "./blocks/logo";
+@import "./blocks/departments";
+@import "./blocks/rubrics";
+@import "./blocks/personList";
+@import "./blocks/person";
+@import "./blocks/message";

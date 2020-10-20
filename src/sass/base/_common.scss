@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0;
+}
+
+.Text {
+  &_Right {
+    text-align: right;
+  }
+
+  &_Center {
+    text-align: center;
+  }
+
+  &_Left {
+    text-align: left;
+  }
+
+  &_Uppercase {
+    text-transform: uppercase;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.Container {
+  max-width: 1330px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  &_Wide {
+    width: 100%;
+  }
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}

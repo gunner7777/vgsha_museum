@@ -1,0 +1,33 @@
+.PersonList {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 15px;
+  //width: 20%;
+
+  &-Outer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  &-Img {
+    height: 300px;
+    width: auto;
+  }
+
+  &-Text {
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(#222, 0.35);
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

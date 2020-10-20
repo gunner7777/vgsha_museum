@@ -1,0 +1,21 @@
+.Person,
+.History {
+  &-Title {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+  }
+
+  &-Img {
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  &-Text {
+    font-size: 1.4rem;
+    & > p {
+      margin-bottom: 10px;
+    }
+  }
+}
